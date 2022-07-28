@@ -22,7 +22,7 @@ function Head() {
           </Heading>
         <Spacer></Spacer>
         {/* Desktop navigation  */}
-        <Flex alignSelf="center" display={["none","flex","flex"]}>
+        <Flex alignSelf="end" >
           <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
         </Flex>
        </Flex>
