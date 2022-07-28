@@ -15,6 +15,9 @@ import {
   } from '@chakra-ui/react';
   
   export default function Hero() {
+
+    const color = useColorModeValue('gray.800', 'white')
+
     return (
       <Container maxW={'7xl'}>
         <Stack
@@ -40,14 +43,14 @@ import {
                   bg: 'red.400',
                   zIndex: -1,
                 }}>
-                Write once,
+                We Provide ,
               </Text>
               <br />
               <Text as={'span'} color={'red.400'}>
-                use everywhere!
+                The Best Cyber Security
               </Text>
             </Heading>
-            <Text color={'gray.500'}>
+            <Text color={color}>
               Snippy is a rich coding snippets app that lets you create your own
               code snippets, categorize them, and even sync them in the cloud so
               you can use them anywhere. All that is free!
