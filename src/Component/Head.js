@@ -1,7 +1,7 @@
-import React,{useState} from 'react'
-import { Flex, Heading, IconButton, VStack, Spacer, Tooltip, Link, Button, Box, Icon, Divider, Text  } from "@chakra-ui/react";
+import React from 'react'
+import { Flex, Heading, IconButton, VStack, Spacer,  } from "@chakra-ui/react";
 import { FaMoon, FaSun } from 'react-icons/fa'
-import {useColorMode, useColorModeValue} from "@chakra-ui/color-mode"
+import {useColorMode} from "@chakra-ui/color-mode"
 // import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
 function Head() {
