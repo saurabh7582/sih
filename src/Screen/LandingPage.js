@@ -1,5 +1,5 @@
 import React from 'react'
-// import FeatureSection from '../Component/FeatureSection'
+import FeatureSection from '../Component/FeatureSection'
 import Footer from '../Component/Footer'
 import Head from '../Component/Head'
 import Hero from '../Component/Hero'
@@ -10,8 +10,8 @@ function LandingPage() {
     <>
       <Head />
       <Hero /> 
-      {/* <FeatureSection />
-      <SimpleThreeColumns />  */}
+      <FeatureSection />
+      {/* <SimpleThreeColumns />  */}
       <Footer />
     </>
   )
