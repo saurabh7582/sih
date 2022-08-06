@@ -131,7 +131,7 @@ overflow={'hidden'}>
             bg={useColorModeValue('primary.100', 'primary.900')}
             p={2}
             px={3}
-            color={'primary.500'}
+            color={'primary.400'}
             rounded={'full'}>
             Network Security Solution
           </Text>
@@ -170,8 +170,8 @@ overflow={'hidden'}>
   {/* cyber animation */}
   <Lottie 
       options={webOptions}
-    height={200}
-    width={200}
+    height={150}
+    width={150}
   />
   {/* end */}
 <Stack
