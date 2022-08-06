@@ -170,8 +170,8 @@ overflow={'hidden'}>
   {/* cyber animation */}
   <Lottie 
       options={webOptions}
-    height={150}
-    width={150}
+    height={200}
+    width={200}
   />
   {/* end */}
 <Stack
@@ -211,9 +211,6 @@ overflow={'hidden'}>
   </Button>
 </Box>
 </Box>
-
-    
-
       
       </Stack>
     {/* </Center> */}
