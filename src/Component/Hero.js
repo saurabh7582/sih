@@ -40,13 +40,13 @@ import {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: 'red.400',
+                  bg: 'primary.400',
                   zIndex: -1,
                 }}>
                 We Provide ,
               </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>
+              <Text as={'span'} color={'primary.300'}>
                 The Best Cyber Security
               </Text>
             </Heading>
@@ -63,9 +63,9 @@ import {
                 size={'lg'}
                 fontWeight={'normal'}
                 px={6}
-                colorScheme={'red'}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}>
+                colorScheme={'primary.100'}
+                bg={'primary.300'}
+                _hover={{ bg: 'primary.400' }}>
                 Get started
               </Button>
               <Button
@@ -91,7 +91,7 @@ import {
               top={'-20%'}
               left={0}
               zIndex={-1}
-              color={useColorModeValue('red.50', 'red.400')}
+              color={useColorModeValue('primary.100', 'primary.400')}
             />
             <Box
               position={'relative'}

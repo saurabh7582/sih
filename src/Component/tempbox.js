@@ -1,57 +1,4 @@
-import { 
-  Heading, 
-  Text, 
-  VStack,
-  Box,
-  Stack,
-  Button,
-  useColorModeValue, 
- 
-} from '@chakra-ui/react'
-import Lottie from 'react-lottie';
-import cyber from '../lotties/cyber.json';
-import network from '../lotties/Network.json';
-import web from '../lotties/Web management.json';
-
-import React from 'react'
-
-function FeatureSection() {
-
-  const cyberOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: cyber,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
-
-  const networkOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: network,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
-
-  const webOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: web,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
-
-  return (
-    <VStack >
-      <Heading as="h2">What We Do </Heading>
-      <Text p={5} textAlign="center" w={["90%","70%","40%"]}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </Text>
-      {/* <Center py={6}> */}
-        {/* box 1 */}
-      <Stack direction={['column','column','row']} spacing="10%"  >
-      <Box
+<Box
 maxW={'330px'}
 w="full"
 bg={useColorModeValue('white', 'gray.800')}
@@ -211,14 +158,3 @@ overflow={'hidden'}>
   </Button>
 </Box>
 </Box>
-
-    
-
-      
-      </Stack>
-    {/* </Center> */}
-    </VStack>
-  )
-}
-
-export default FeatureSection
